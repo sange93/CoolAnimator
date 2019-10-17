@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btHeadAnim.setOnClickListener { startActivity(Intent(this, HeadAnimActivity::class.java)) }
         btVibrateAnim.setOnClickListener { startActivity(Intent(this, VibrateAnimActivity::class.java)) }
+        btHeartbeatAnim.setOnClickListener { startActivity(Intent(this, HeartbeatActivity::class.java)) }
     }
 }

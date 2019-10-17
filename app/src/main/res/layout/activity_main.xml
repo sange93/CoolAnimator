@@ -25,7 +25,18 @@
         android:gravity="center_vertical|end"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintTop_toBottomOf="@id/btHeadAnim"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btHeartbeatAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="心跳动画"
+        android:gravity="center_vertical|end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/btVibrateAnim"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
